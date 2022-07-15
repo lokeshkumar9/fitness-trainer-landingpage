@@ -1,0 +1,210 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'poppins',sans-serif;
+
+}
+body{
+    background: url(fitness.jpg);
+    background-size: cover;
+background-position: center;
+justify-content: flex-start;
+}
+.logo{
+	width: 3rem;
+	height: 3rem;
+	cursor: pointer;
+	margin-right: 0.2rem;
+}
+.profilePic{
+	width: 3rem;
+	border-radius: 50%;
+	cursor: pointer;
+	display: inline-block;
+
+}
+navbar{
+	width: 100%;
+	height:auto;
+	margin-bottom: 2rem;
+	padding: 1rem 5px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+navbar input{
+    background-color: #F7F7F7;
+    padding: 4px;
+    color: black;
+    font-size: 1.2rem;
+    border-radius: 10px;
+}
+navbar ul li{
+	display: inline-block;
+	list-style: none;
+	margin: 0 1rem;
+}
+
+.right-header{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+/*.fa-solid .fa-bell{
+	z-index: 10;
+	color: white;
+}*/
+
+.left-header{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+    color:orange;
+}
+
+.middle-header ul{
+    display: flex;
+    flex-direction: row;
+    text-transform: uppercase;
+    align-items: center;
+    font-size:1.5em;
+}
+.middle-header ul li a{
+   
+    color:red;
+}
+.middle-header ul li a:hover{
+   
+    color:greenyellow;
+}
+.middle-header ul li{
+    display:inline-block;
+	list-style: none;
+	margin: 0 1rem;
+    color:red;
+    text-decoration: none;
+}
+
+.navlogo{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin: 0px 3rem;
+    color:orange;
+}
+
+#main-highlight{
+    width:90%;
+    height:320px;
+    margin:auto auto;
+    display:flex;
+    justify-content: space-between;
+}
+.left-content{
+    width:40%;
+    height: 320px;
+}
+.left-content h1{
+    font-size: 3rem;
+    font-weight: bolder;
+    color: pink;
+}
+.left-content>div{
+    margin:1rem;
+}
+.get-started{
+    background-color: orangered;
+    border-radius: 30px;
+    padding:1rem 2rem;
+    color:white;
+    margin-right: 1rem;
+    border:1px solid orangered;
+}
+.left-content i{
+    color:orangered;
+    font-size: 2.6rem;
+    margin-right: 0.4rem;
+}
+.left-content>div:nth-child(2){
+    display:flex;
+}
+
+.main-image{
+    width:40%;
+}
+.main-image img{
+    width:100%;
+    margin:auto 0px;
+    height:auto;
+    /* position:absolute; */
+    left:0%;
+}
+
+
+.statistics{
+    width:12%;
+    margin:auto 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height:320px;
+    margin-right: 230px;
+}
+.statistics p{
+    color: blue;
+}
+.statistics>div{
+    margin-bottom: 1rem;
+}
+.statistics>div:nth-child(3){
+    margin-bottom: 0rem;
+}
+.statistics h1{
+    font-size: 2rem;
+    color:orangered;
+}
+
+
+.popular-exercises{
+    width:90%;
+    margin:2rem auto;
+}
+.popular-exercises .heading{
+    color:green;
+    margin:1rem 0px;
+
+}
+.popular-exercises .heading i{
+    color:orange;
+    width:2rem;
+}
+
+.card-container{
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.card{
+    display: flex;
+    width:auto;
+    height:auto;
+    justify-content: flex-start;
+    padding: 1.5rem 1.5rem;
+    margin-right:1rem;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 0px 8px 8px 0px;
+}
+.card i{
+    color:rgb(115, 55, 141);
+    font-size: 2.3rem;
+    margin-right: 1rem;
+    padding: auto auto;
+}
+.card>div{
+    background-color: white;
+}
+
+

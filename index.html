@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>fitness trainer landing page</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c6b859bdbf.js" crossorigin="anonymous">
+    </script>
+</head>
+<body>
+    
+<section>
+    <header>
+        <navbar>
+            <div class="left-header">
+                <div class="navlogo">
+                    <img src="logo.jpg" class="logo">
+                    <span><b>GYMC</b><br>Fitness</span>
+                </div>			
+                <div>Favourites</div>
+            </div>
+            
+            <div class="middle-header">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Features</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Pricing</a></li>
+                </ul>
+            </div>
+            <ul class="right-header">
+                <li>
+                    <div class="search-box">
+                        <input type="text" name="search" placeholder="search" class="search-text">
+                        <a href="#">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        </a>
+                    </div>
+                </li>
+                <li><i class="fa-solid fa-bell"></i></li>
+                <li><img src="" class="profilePic"><i class="fa-solid fa-caret-down"></i></li>
+            </ul>
+        </navbar>
+    </header>
+
+   <section id="main-highlight">
+        <div class="left-content">
+            <div style="margin-bottom:2rem;">
+                <h1>Come & Make</h1>
+                <h1>Your Dream Body</h1>
+                <h1>With GYMC</h1>
+            </div>
+            <div>
+                <button class="get-started">Get Started</button>
+                <i class="fa-solid fa-circle-play"></i>
+                <p style="margin:auto 0px;">Watch Video</p>
+            </div>
+            <div>
+              <a href="#" style="color:blue"> Already member of our community?</a><a href="#" style="color:orangered">Sign in</a>
+            </div>
+        </div>
+        <div class="statistics">
+            <div>
+                <h1>120k</h1>
+                <p><b>Happy Clients</b></p>
+            </div>
+            <div>
+                <h1>24</h1>
+                <p>Years Experience</p>
+            </div>
+            <div>
+                <h1>45+</h1>
+                <p>Expert Trainer</p>
+            </div>
+        </div>
+
+   </section>
+   <section class="popular-exercises">
+        <h2 class="heading">Popular Exercises</h2>
+        <div class="card-container">
+            <div class="card">
+                <div><i style="background-color: white;" class="fa-solid fa-person-running"></i></div>
+                <div>
+                    <h3 style="background-color: white;">Running</h3>
+                    <p style="background-color: white;">Running tips for every tips</p>
+                </div>
+            </div>
+            <div class="card">
+                <div><i style="background-color: white;" class="fa-solid fa-person-running"></i></div>
+                <div>
+                    <h3 style="background-color: white;">weight lifting</h3>
+                    <p style="background-color: white;">curve your body</p>
+                </div>
+            </div>
+            <div class="card">
+                <div><i style="background-color: white;" class="fa-solid fa-person-running"></i></div>
+                <div>
+                    <h3 style="background-color: white;">strecthcing</h3>
+                    <p style="background-color: white;">flexible joints</p>
+                </div>
+            </div>
+        </div>
+
+   </section>
+</section>
+
+<script type="text/javascript">
+    function togglemenu()
+    {
+        const toggleMenu =document.querySelector('.toggleMenu');
+        const navoigation=document.querySelector('.navigation');
+        togglemenu.classList.toggle('active');
+        toggleMenu.classList.toggle('active');
+    }
+</script>
+</body>
+</html>
